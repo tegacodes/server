@@ -7,3 +7,13 @@ See requirements.txt for python install requirements
 * try this with the apache server we have to serve the files from the output folder
 
 * we then run the create_html.py regularly with a cron job to get updated data. 
+
+Install:
+
+Use a virtual environment:
+(macOS)
+```
+python3 -m venv env
+source env/bin/activate
+pip3 install -r requirements.txt
+```
