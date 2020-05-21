@@ -13,7 +13,7 @@ Install:
 Use a virtual environment:
 (macOS)
 ```
-python3 -m venv env
+virtualenv -p python3 venv
 source env/bin/activate
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 ```
